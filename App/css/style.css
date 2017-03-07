@@ -1,0 +1,21 @@
+body, html {
+	width: 100%;
+	overflow-x: hidden; 
+	font-family: sans-serif;
+	color: #848484;
+}
+
+/* Header */
+header {
+	background-color: #2E9AFE;
+	min-height: 100px;
+	padding: 25px;
+}
+
+header h1 {
+	color: white;
+}
+
+.container > p {
+	position: static;
+} 
