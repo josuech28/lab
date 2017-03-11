@@ -51,3 +51,20 @@ header h1 {
 	right: 0;
 	background-color: #2E9AFE;
 }
+/*
+ * Fifth  exercise absolute-postioning
+ */
+.float-positioning {
+	float: left;
+	background-color: #2E9AFE;
+}
+
+footer {
+	border-top: 0.1px dashed #848484;
+}
+
+footer > .follow-us a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #00BFFF;
+}
