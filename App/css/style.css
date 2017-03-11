@@ -19,3 +19,9 @@ header h1 {
 .container > p {
 	position: static;
 } 
+
+.container > p:nth-of-type(2) {
+	position: relative;
+    left: 30px;
+    top: 10px;
+}
