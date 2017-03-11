@@ -1,0 +1,66 @@
+body, html {
+	height: 100%;
+  	box-sizing: border-box;
+	width: 100%;
+	overflow-x: hidden; 
+	font-family: sans-serif;
+	color: #848484;
+}
+
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+/* Header */
+header {
+	background-color: #2E9AFE;
+	min-height: 100px;
+	padding: 25px;
+}
+
+header h1 {
+	color: white;
+}
+
+/*
+ * Two col layout
+ */
+ .column1of2 {
+ 	float: left;
+ 	width: 630px;
+ 	margin: 10px;
+ }
+
+ .column2of2 {
+ 	float: left;
+ 	width: 300px;
+ 	margin: 10px;
+ }
+ /*
+ * Three col layout
+ */
+.column1of3, .column2of3, .column3of3 {
+	float: left;
+	width: 300px;
+	margin: 10px;
+}
+
+
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	background-color: #efefef;
+	text-align: center;
+}
+
+footer > .follow-us a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #00BFFF;
+}
