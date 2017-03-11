@@ -37,5 +37,17 @@ header h1 {
 	position: absolute;
 	right: 0px;
 	top: 0px;
-	background-color: #ddd;
+	background-color: #2E9AFE;
+}
+/*
+ * Fourth  exercise absolute-postioning
+ */
+.fixed-positioning {
+	position: fixed;
+	width: 500px;
+	height: 50px;
+	margin: 5% auto;
+	left: 0;
+	right: 0;
+	background-color: #2E9AFE;
 }
