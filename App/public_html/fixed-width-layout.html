@@ -5,14 +5,17 @@
   	<meta name="description" content="Fixed width layouts">
   	<meta name="author" content="Josue Chinchilla">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<link rel="stylesheet" type="text/css" href="../css/style.css">
+  	<link rel="stylesheet" type="text/css" href="../css/fixed-layout.css">
 	<title>Fixed Width Layouts</title>
 </head>
 <body>
 	<div class="content">
 		<header>
 			<h1>
-				Logo
+				<div>
+					<img src="../img/una_logo.png" alt="Logo">
+				</div>
+				
 			</h1>
 			<nav>
 				<ul>
@@ -25,11 +28,13 @@
 		</header>
 		<main>
 			<div class="feature">Feature</div>
-			<div class="column1"></div>
-			<div class="column2"></div>
-			<div class="column3"></div>
+			<div class="column">
+				<div class="column1">Column 1</div>
+				<div class="column2">Column 2</div>
+				<div class="column3">Column 3</div>
+			</div>
 		</main>
-		<footer>
+		<footer class="footer-component">
 			@Copyright 2011
 		</footer>
 	</div>
