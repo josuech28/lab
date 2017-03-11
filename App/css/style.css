@@ -16,12 +16,26 @@ header h1 {
 	color: white;
 }
 
+/*
+ * First exercise normal-flow
+ */
 .container > p {
 	position: static;
 } 
-
-.container > p:nth-of-type(2) {
+/*
+ * Second  exercise relative-positioning
+ */
+.container > .relative-positioning {
 	position: relative;
     left: 30px;
     top: 10px;
+}
+/*
+ * Third  exercise absolute-postioning
+ */
+.absolute-positioning {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: #ddd;
 }
