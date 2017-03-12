@@ -14,12 +14,31 @@ footer {
 	text-decoration: none;
 	cursor: pointer;
 }
+.grid-author {
+	text-align: left;
+	color: #848484;
+} 
 .grid-4 {
 	background-color: #088A08;
+}
+.grid-4:hover{
+  color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 0.9;
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15); 
 
 }
 
 .grid-4  > h4 > a {
 	color: white;
 	text-decoration: none;
+}
+
+hr {
+	color: #848484;
 }
