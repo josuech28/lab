@@ -1,0 +1,25 @@
+h1 {
+	padding: 50px 10px;
+}
+
+footer {
+	background-color: #efefef;
+}
+.grid-2 {
+	height: 25px;
+
+}
+.follow-us > a {
+	color: #2E9AFE;
+	text-decoration: none;
+	cursor: pointer;
+}
+.grid-4 {
+	background-color: #088A08;
+
+}
+
+.grid-4  > h4 > a {
+	color: white;
+	text-decoration: none;
+}
