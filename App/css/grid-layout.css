@@ -1,0 +1,18 @@
+body {
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.grid {
+	background-color: #2E9AFE;
+	margin: 10px;
+}
+
+.grid-4 {
+	height: 100px;
+}
+
+.grid-12 {
+	height: 200px;
+}
