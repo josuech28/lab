@@ -1,0 +1,5 @@
+.box-model {
+    margin: 200px;
+    border: 160px solid green;
+    padding: 90px;
+}
