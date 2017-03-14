@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="description" content="Box Model">
+  	<meta name="author" content="Josue Chinchilla">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Js example</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>
+				Js example
+			</h1>
+		</header>
+		<main>
+
+			<div class="box-model">
+				<button id=btn-info>
+					My data
+				</button>
+			</div>
+			<div id="inyectText"></div>
+		</main>
+		<footer>
+		</footer>
+	</div>
+	<script type="text/javascript">
+		var js  = {
+
+			clickFunction: function() {
+				alert('Hello World!')
+			}
+
+
+		}
+		var btn = document.querySelector('#btn-info');
+		btn.addEventListener('click', function(){
+			js.clickFunction();
+		});
+		console.log(btn);
+	</script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
