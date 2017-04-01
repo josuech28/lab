@@ -1,3 +1,98 @@
+body, html {
+	height: 100%;
+  	box-sizing: border-box;
+	width: 100%;
+	overflow-x: hidden; 
+	font-family: sans-serif;
+	color: #848484;
+}
+
+
 .navbar-inverse {
     margin-top: 5px;
+}
+
+/*
+ * Titles
+ */
+.title-main-section {
+	color: black;
+}
+
+.title-sub-section {
+	color: #0080FF;
+}
+.title-sub-sub-section {
+	color: #01DF01;
+}
+
+.title-sub-sub-sub-section {
+	color: #FE2E2E;
+}
+/*
+ * Box content (box model)
+ */
+ .box-content {
+ 	background: #FFBF00;
+ 	border: 3px solid black;
+ 	padding: 5px;
+ 	margin: 5px;
+ }
+
+ .box-content:hover{
+  color: #424242; 
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  opacity: 0.9;
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+}
+/*
+ * General images
+ */
+
+img {
+	width: 100%;
+}
+
+img:hover{
+  color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 0.9;
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+}
+
+
+
+/*
+ * Decorate text
+ */
+.text-red {
+	color: #FE2E2E;
+}
+
+.link {
+	color: #0080FF;
+}
+
+.web-link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+	text-decoration: overline;
+}
+
+
+@media screen and (max-width: 720px){ 
+    .botton-nav {
+		display: none;
+	}
 }
