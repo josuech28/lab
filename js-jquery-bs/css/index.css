@@ -1,0 +1,42 @@
+/* On calculute age */
+.add-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.add-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+/* List of buttons */
+.button-list > button {
+    margin: 15px;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+/* id selector */
+.selector-id {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
