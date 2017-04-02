@@ -20,7 +20,6 @@ function User(name, dateP) {
         }
         else {
             age = (date - yearBirth);
-            console.log(age);
         }
     };
 
