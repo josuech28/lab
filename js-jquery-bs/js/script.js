@@ -31,11 +31,11 @@ function User(name, dateP) {
         calculateAge();
         if (age != 0) {
             var result =
-            "Hola, mi nombre es " + this._name +
-            " y tengo " + age + " años."
-            showResults(result,'add-success');
+                "Hola, mi nombre es " + this._name +
+                " y tengo " + age + " años."
+            showResults(result, 'add-success');
         } else {
-            showResults("Error, birth year grather than current day",'add-error');
+            showResults("Error, birth year grather than current day", 'add-error');
         }
     };
 }
@@ -45,15 +45,39 @@ $("#btn_calcular_edad").click(function () {
     var name = $("#name").val();
     var age = $("#fecha_nacimiento").val();;
     var res = parseInt(age.substring(0, 4));
-    var newUser = new User(name,res);
+    var newUser = new User(name, res);
     newUser.toShow();
-    
+
 });
 
 $("#btn_id_selector").click(function () {
     var text = $("#thing1").text();
-    showResults(text,"selector-id"); 
+    showResults(text, "selector-id");
 });
 
+$("#btn_class_selector").click(function () {
+    var text = $(".special").text();
+    showResults(text, "selector-class");
+});
 
+$("#btn_tag_selector").click(function () {
+    var text = $("li[data-troy='true']").text();
+    showResults(text, "selector-tag");
+});
+
+$("#btn_edit-text-selector").click(function () {
+    var fisrtSelect = $("li[data-troy='true']").text();
+    var secondSelect = $("li[data-employee='Bob Metz']").text();
+    $("li[data-troy='true']").text(secondSelect);
+    $("li[data-employee='Bob Metz']").text(fisrtSelect);
+    $("li[data-troy='true']").attr("class", "selector-edit-text");
+    $("li[data-employee='Bob Metz']").attr("class", "selector-edit-text");
+    var result = fisrtSelect + " and " + secondSelect;
+    showResults(result, "selector-edit-text");
+});
+
+$("#btn_child_selector").click(function () {
+    var text = $("div p").text();
+    showResults(text, "selector-child");
+});
 

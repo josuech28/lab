@@ -40,3 +40,27 @@
     background-color: #d9edf7;
     border-color: #bce8f1;
 }
+/* class selector */
+.selector-class {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+/* tag selector */
+.selector-tag {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+/* edit-text selector */
+.selector-edit-text {
+    color: #FFFF00;
+    background-color: #FBFBEF;
+    border-color: #F3F781; 
+}
+/* child selector */
+.selector-child {
+    color: #B40486;
+    background-color: #F5A9D0;
+    border-color: #FE2EF7;
+}
