@@ -29,13 +29,13 @@ function User(name, dateP) {
     // public method
     this.toShow = function () {
         calculateAge();
-        if (age != 0) {
+        if (age != 0 && !isNaN(age) && this._name.length  > 0) {
             var result =
                 "Hola, mi nombre es " + this._name +
                 " y tengo " + age + " años."
             showResults(result, 'add-success');
         } else {
-            showResults("Error, birth year grather than current day", 'add-error');
+            showResults("Error, remeber write a valid name and birth year", 'add-error');
         }
     };
 }
