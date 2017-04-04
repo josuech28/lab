@@ -1,3 +1,6 @@
+/*
+ *  Function to display text with specific css into textarea -> #mostrarResultado
+ */
 showResults = function (texto, estilo) {
     var output = $("#mostrarResultado");
     if (output) {
@@ -5,7 +8,11 @@ showResults = function (texto, estilo) {
         output.text(texto);
     }
 }
-// constructor func
+/*
+ * Constructur User 
+ * In charge of calculate age and display
+ */
+
 function User(name, dateP) {
     var age;
     // private method
